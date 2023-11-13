@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+// import pokeball from "../components/pokeball.vue";
+</script>
 
 <template>
   <div class="m-4">
@@ -7,6 +9,7 @@
 
   <div class="flex">
     <div class="img w-1/2">
+      <!-- <pokeball width="w-full" :pokemon="pokemon" /> -->
       <img class="w-full h-auto rounded-3xl bg-slate-700" :src="pokemon.sprites.front_default" alt="" />
     </div>
     <div class="txt w-1/2 text-white p-3">
